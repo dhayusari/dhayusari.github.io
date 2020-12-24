@@ -1,0 +1,61 @@
+/*CSS file mystyle.css*/
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #F9FFEA;
+}
+
+#webname {
+    color: #D4A5A5;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#navbar {
+    background-color: #ffecda;
+    padding-left: 2%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#homebut {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #A6D0E4;
+}
+.nav-link {
+    color: #A6D0E4;
+}
+.nav-link:hover {
+    color: #8ca6b3;
+}
+
+#gallery {
+    height: 100vh;
+    padding: 5%;
+    color: #d4a5a6;
+    
+}
+
+#gallerytitle {
+    text-align: center;
+    font-size: 36px;
+}
+
+#carousel {
+    margin-bottom: 20px;
+    width: auto;
+}
+
+#about {
+    height: 100vh;
+    padding: 5%;
+    display: flex;
+    margin: 0 auto
+}
+
+p {
+    margin-left: 10px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- LINK CSS-->
+    <link rel="stylesheet" type="text/css"
+      href="webstyle.css"
+    >
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="icon" href="https://bigfluffydogs.com/wp-content/uploads/2018/03/Owen-1.jpg">
+
+    <title>Welcome!</title>
+  </head>
+
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <h1 id="webname">Catalogue</h1>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg">
+      <a id="homebut" class="navbar-brand" href="home.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="books.html">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="movies.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="k-dramas.html">K-Drama</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About -->
+    <div id = "about" class="container">
+      <div class="row">
+        <div class="col-4">
+            <img src="profile.jpg" 
+              alt="a girl"
+              height="300px"
+            >
+        </div>
+        <div class="col">
+          <p id="introduction">
+            Hi! My name is Dhayu. I am 16 years old and this is my website
+          </p>  
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel (Personal Gallery)-->
+    <div id="gallery" class="container">
+      <div class="row">
+        <h2 id="gallerytitle">
+          <i>Gallery</i>
+        </h2>  
+      </div>
+      <div class="row">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pic1.jpg" 
+            class="d-block w-100" 
+            alt="picnic with friends"
+            >
+          </div>
+          <div class="carousel-item">
+            <img src="pic2.jpg" class="d-block w-100" alt="panitia pensi"
+            >
+          </div>
+          <div class="carousel-item">
+            <img src="pic3.jpg" class="d-block w-100" alt="summer club last year"
+            >
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+        </div>
+      </div>
+    </div>
+    
+  
+  </body>
+</html>
