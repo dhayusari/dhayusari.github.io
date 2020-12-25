@@ -69,7 +69,7 @@ body {
 }
 
 #contact {
-    height: 100vh;
+    height: 50vh;
 }
 
 p {
@@ -90,3 +90,20 @@ p {
 }
 
 /* K-POP PAGE */
+#hsvt {
+    text-align: center;
+}
+#svtimage {
+    display:flex;
+    justify-content: space-evenly;
+}
+.svtpic {
+    margin:auto;
+}
+#svtsum {
+    text-align: center;
+}
+#homerun {
+    display: flex;
+    justify-content: center;
+}
