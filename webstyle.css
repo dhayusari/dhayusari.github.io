@@ -97,11 +97,19 @@ p {
 /* K-POP PAGE */
 #h2boy {
     font-family: 'Permanent Marker', cursive;
+    font-size: 36px;
+    margin: 10px;
+    color: #8ac6d1;
 }
 #hsvt {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    color: #b2deec;
 }
 #svtimage {
+    margin-top: 20px;
+    margin-bottom: 20px;
     display:flex;
     justify-content: space-evenly;
 }
@@ -109,9 +117,21 @@ p {
     margin:auto;
 }
 #svtsum {
+    color: #794c74;
+    padding: 5vh;
     text-align: center;
 }
+#disco {
+    padding: 5vh;
+}
+#disctitle {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #484c7f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 #homerun {
+    margin: 40px;
     display: flex;
     justify-content: center;
 }
