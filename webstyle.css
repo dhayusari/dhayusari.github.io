@@ -19,7 +19,6 @@ body {
     padding-left: 2%;
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #A6D0E4;
 }
 
 #homebut {
@@ -33,11 +32,19 @@ body {
     color: #8ca6b3;
 }
 
-#gallery {
+#about {
     height: 100vh;
     padding: 5%;
+    display: flex;
+    margin: 0 auto
+}
+
+#gallery {
+    height: 100vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
     color: #d4a5a6;
-    
+    margin-bottom: 20px;
 }
 
 #gallerytitle {
@@ -45,16 +52,21 @@ body {
     font-size: 36px;
 }
 
-#carousel {
+#carouselExampleIndicators {
     margin-bottom: 20px;
     width: auto;
 }
 
-#about {
+.carousel-inner {
+    height: 80vh;
+}
+.carousel-item, .carousel-item active {
+    height: 100%;
+    width:100%;
+}
+
+#contact {
     height: 100vh;
-    padding: 5%;
-    display: flex;
-    margin: 0 auto
 }
 
 p {
