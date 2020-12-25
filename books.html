@@ -31,7 +31,7 @@
      
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar sticky top navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">Catalogue</a>
+    <a class="navbar-brand" href="index.html">Catalogue</a>
     <button id="toggler" class="navbar-toggler" 
       type="button" 
       data-toggle="collapse" 
@@ -41,22 +41,40 @@
       aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
+  
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="index.html#about">About</a>
+            <a class="dropdown-item" href="index.html#gallery">Gallery</a>
+          </div>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="books.html" role="button" aria-haspopup="true" aria-expanded="false">Books</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#eng">ENG Fiction</a>
+            <a class="dropdown-item" href="#ind">IND Fiction</a>
+          </div>
         <li class="nav-item">
           <a class="nav-link" href="movies.html">Movies</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="series.html">Series</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="series.html" role="button" aria-haspopup="true" aria-expanded="false">Series</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="series.html#tv-show">TV-Shows</a>
+            <a class="dropdown-item" href="series.html#k-drama">K-Dramas</a>
+          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="k-pop.html">K-pop</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="k-pop.html" role="button" aria-haspopup="true" aria-expanded="false">K-pop</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="k-pop.html#boys">Boy Groups</a>
+            <a class="dropdown-item" href="k-pop.html#girls">Girl Groups</a>
+          </div>
         </li>
-      </ul>      
+      </ul>
     </div>
   </nav>
 
@@ -72,6 +90,15 @@
     <div class="col-6 col-md-4">.col-6 .col-md-4</div>
     <div class="col-6 col-md-4">.col-6 .col-md-4</div>
   </div>
+  
+  <!-- ENG FICTION-->
+  <div id="eng">
+    
+  </div>
 
+  <!-- IND FICTION-->
+  <div id="ind">
+
+  </div>
 </body>
 </html>

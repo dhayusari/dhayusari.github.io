@@ -7,6 +7,7 @@ body {
     background-color: #F9FFEA;
 }
 
+/* HOME PAGE*/
 #webname {
     color: #D4A5A5;
     padding: 10px;
@@ -72,4 +73,13 @@ body {
 p {
     margin-left: 10px;
     text-align: justify;
+}
+
+/* SERIES PAGE */
+#k-drama {
+    height: 100vh;
+}
+
+#tv-show {
+    height: 100vh;
 }
