@@ -1,46 +1,60 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <!-- LINK CSS-->
-    <link rel="stylesheet" type="text/css"
-              href="webstyle.css">
+  <!-- LINK CSS-->
+  <link rel="stylesheet" type="text/css"
+    href="webstyle.css"
+  >
 
-    <title>Wow Books!</title>
-  </head>
+  <!-- web icon -->
+  <link rel="icon" href="assets/movies.png">
+
+  <title>Wow Books!</title>
+</head>
 
 
-  <body>
-    <!-- Option 1: Bootstrap Bundle with Popper JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<body>
+  <!-- Option 1: Bootstrap Bundle with Popper JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+  <!-- Nav Bar-->
+  <nav id="navbar" class="navbar sticky top navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Catalogue</a>
+    <button id="toggler" class="navbar-toggler" 
+      type="button" 
+      data-toggle="collapse" 
+      data-target="#navbarTogglerDemo02" 
+      aria-controls="navbarTogglerDemo02" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
       
-    <!-- Nav Bar -->
-    <nav id="navbar" class="navbar navbar-expand-lg">
-      <a id="homebut" class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="books.html">Books</a>
-           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="movies.html" tabindex="-1" aria-disabled="true">Movies</a>
-          </li>
-          <li class="nav-item">
-           <a class="nav-link" href="series.html">TV-Shows</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="books.html">Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="series.html">Series</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="k-pop.html">K-pop</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   </body>
 </html>
