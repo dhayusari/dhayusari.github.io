@@ -10,7 +10,14 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 h2 {
+    margin: 20px;
     font-family: 'Permanent Marker', cursive;
+    color: #bb5a5a;
+}
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #df7861;
 }
 
 /* NAV BARS*/
@@ -88,11 +95,57 @@ p {
     text-align: justify;
 }
 /* BOOKS PAGE */
+.booktitle {
+    padding: 2vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e79e85;
+}
+.poster {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    margin-bottom: 15px;
+}
+.bookreview {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.booksummary, .bookreview {
+    color: #825959;
+}
 
 /* MOVIES PAGE */
+.movietitle {
+    padding: 2vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e79e85;
+}
+.poster {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    margin-bottom: 15px;
+}
+.moviereview {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.moviesummary, .moviereview {
+    color: #825959;
+}
 
 /* SERIES PAGE */
+.seriestitle {
+    padding: 2vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e79e85;
+}
 
+.seriesreview {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.seriessummary, .seriesreview {
+    color: #825959;
+}
 
 /* K-POP PAGE */
 #h2boy {
@@ -118,8 +171,16 @@ p {
 }
 #svtsum {
     color: #794c74;
-    padding: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 5vh;
     text-align: center;
+}
+#readmore {
+    justify-content: center;
+}
+#more {
+    display: none;
 }
 #disco {
     padding: 5vh;
@@ -129,6 +190,9 @@ p {
     margin-top: 20px;
     color: #484c7f;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#semisum {
+    color: #794c74;
 }
 #homerun {
     margin: 40px;

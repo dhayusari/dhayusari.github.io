@@ -122,8 +122,14 @@
       <div class="row">
         <div class="col-12">
           <p id="svtsum">
-            SEVENTEEN or usually styled as SVT is a K-POP boy band that debuted in May 25th, 2015.
+            SEVENTEEN or usually styled as SVT is a K-POP boy band that debuted in May 25th, 2015
+            <span id="dots">...</span>
+            <span id="more">
+              Although they are called Seventeen, they actually have 13 members. The name comes from 13 (members)
+              + 3 (sub-units) + 1 (team) = 17. Those sub-units are Vocal Team, Hip-Hop Team, and Performance Team.
+            </span>
           </p>
+          <button onclick="readMore()" id="readmore">Read more</button>
         </div>
       </div>
       <div id="disco">
@@ -142,10 +148,18 @@
              width="350px">
           </div>
           <div class ="col-6">
-            <p>
+            <p id="semisum">
               Semicolon is released on 19th Oct,2020. It is a special album following the 
               release of their 7th mini album, heng:garae.
               List of songs:
+              <ul type="circle" style="color: #794c74;">
+                <li>Home-Run</li>
+                <li>Do Re Mi</li>
+                <li>HEY BUDDY</li>
+                <li>Light a Flame</li>
+                <li>AH!Love</li>
+                <li>All My Love</li>
+              </ul>
             </p>
           </div>
         </div>
@@ -165,5 +179,22 @@
 
   </div>
 
+  <script>
+    function readMore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("readmore");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+  </script>
 </body>
 </html>
