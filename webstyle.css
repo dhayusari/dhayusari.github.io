@@ -32,8 +32,9 @@ h4 {
 .navbar-brand, .nav-link, .nav-link dropdown-toggle, .dropdown-item {
     color: #A6D0E4;
 }
-.nav-link:hover , .dropdown-item:hover {
+.nav-link:hover , .dropdown-item:hover , .navbrand:hover {
     color: #8ca6b3;
+    background-color: #f3d7ca;
 }
 .dropdown-menu  {
     background-color: #ffecda;
@@ -43,7 +44,7 @@ h4 {
 }
 
 /* HOME PAGE*/
-#webname {
+.webname {
     font-family: 'Carter One', cursive;
     color: #d4a5a6;
     background-color: #ffecda;
@@ -52,9 +53,7 @@ h4 {
 }
 #about {
     height: 100vh;
-    padding: 5%;
-    display: flex;
-    margin: 0 auto
+    padding: 10vh;
 }
 #introduction {
     color: #c86b85;
@@ -68,7 +67,7 @@ h4 {
     margin-bottom: 20px;
 }
 
-#gallerytitle {
+#gallerytitle , #abouttitle{
     text-align: center;
     font-size: 36px;
 }
@@ -199,11 +198,12 @@ p {
 #readmore {
     justify-content: center;
 }
-#more {
+#more1, #more2 {
     display: none;
 }
 #disco {
     padding: 5vh;
+
 }
 #disctitle {
     margin-bottom: 10px;
@@ -214,10 +214,14 @@ p {
 #semisum {
     color: #794c74;
 }
-.utubelink {
+#homerun {
     margin: 40px;
     display: flex;
     justify-content: center;
+}
+#boca {
+    display: block;
+    margin: 0 auto;
 }
 
 #hdc {

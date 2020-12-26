@@ -36,7 +36,11 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>    
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+  
+  <h1 class="webname">
+    K-Pop Groups
+  </h1>
+
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar sticky top navbar-expand-lg">
     <a class="navbar-brand" href="index.html">Catalogue</a>
@@ -124,14 +128,14 @@
         <div class="col-12">
           <p id="svtsum" class="ksummary">
             SEVENTEEN or usually styled as SVT is a K-POP boy band that debuted in May 25th, 2015 under PLEDIS Entertainment
-            <span id="dots">...</span>
-            <span id="more">
+            <span id="dots1">...</span>
+            <span id="more1">
               Although they are called Seventeen, they actually have 13 members. 
               (Seungcheol, Jeonghan, Joshua, Jun, Hoshi, Wonwoo, WOOZI, DK, Mingyu, THE8, Seungkwan,
               Vernon, Dino). The name SEVENTEEN comes from 13 (members)
               + 3 (sub-units) + 1 (team) = 17. Those sub-units are Vocal Team, Hip-Hop Team, and Performance Team.
             </span>
-            <button onclick="readMore()" id="readmore"
+            <button onclick="readMore1()" id="readmore1"
             style="background-color: #F9FFEA; font-family: 'Roboto', cursive; border: none; color: #634a4a;">
             Read more</button>
           </p>
@@ -202,38 +206,57 @@
       <div class="col-12">
         <p id="dcsum" class="ksummary">
           Dreamcather is a blabla
-          <span id="dots">...</span>
-          <span id="more">
+          <span id="dots2">...</span>
+          <span id="more2">
             Although they are called Seventeen, they actually have 13 members. The name comes from 13 (members)
             + 3 (sub-units) + 1 (team) = 17. Those sub-units are Vocal Team, Hip-Hop Team, and Performance Team.
           </span>
-          <button onclick="readMore()" id="readmore"
+          <button onclick="readMore2()" id="readmore2"
           style="background-color: #F9FFEA; font-family: 'Roboto', cursive; border: none; color: #634a4a;">
           Read more</button>
         </p>
       </div>
-      <div id="disco">
-        <div class="row">
-          <div class="col-12">
-            <h4 id="dctitle" class="dtitle"
-            style="text-align: left;">
-            DISCOGRAPHY
-            </h4>
+      <div class="d-flex justify-content-center">
+        <div id="disco">
+          <div class="row">
+            <div class="col-12">
+              <h4 id="dctitle" class="dtitle"
+              style="text-align: left;">
+              DISCOGRAPHY
+              </h4>
+            </div>
           </div>
+          <div id="boca" class="utubelink" style="text-align: center;">
+            <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/MZ4JGye4dQU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+              style="display:block; margin: 0 auto;">
+              
+            </iframe>
         </div>
-        <div id="boca" class="utubelink">
-          <iframe width="560" height="315" 
-            src="https://www.youtube.com/embed/MZ4JGye4dQU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe>
       </div>
-    </div>
+      </div>
     </div>
 
   <script>
-    function readMore() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("readmore");
+    function readMore1() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("readmore1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+  function readMore2() {
+  var dots = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("readmore2");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
