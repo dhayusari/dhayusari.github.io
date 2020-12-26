@@ -110,10 +110,12 @@ p {
 }
 .bookreview {
     text-align: center;
+    color: #825959;
     margin-bottom: 40px;
 }
-.booksummary, .bookreview {
+.booksummary {
     color: #825959;
+    width: 80%;
 }
 
 /* MOVIES PAGE */
