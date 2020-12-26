@@ -169,7 +169,7 @@ p {
 .svtpic {
     margin:auto;
 }
-#svtsum {
+.ksummary {
     color: #794c74;
     padding-left: 5vh;
     padding-right: 5vh;
@@ -194,8 +194,21 @@ p {
 #semisum {
     color: #794c74;
 }
-#homerun {
+.utubelink {
     margin: 40px;
     display: flex;
     justify-content: center;
+}
+
+#hdc {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #bb5a5a;
+}
+#dcimage {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 2vh;
 }

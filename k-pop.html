@@ -99,7 +99,7 @@
     </h2>
     <!-- SEVENTEEN -->
     <div id="svt">
-        <h3 id="hsvt">
+        <h3 id="hsvt" class="khead">
           SEVENTEEN
         </h3>
       <div id="svtimage">
@@ -121,21 +121,25 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <p id="svtsum">
+          <p id="svtsum" class="ksummary">
             SEVENTEEN or usually styled as SVT is a K-POP boy band that debuted in May 25th, 2015
             <span id="dots">...</span>
             <span id="more">
-              Although they are called Seventeen, they actually have 13 members. The name comes from 13 (members)
+              Although they are called Seventeen, they actually have 13 members. 
+              (Seungcheol, Jeonghan, Joshua, Jun, Hoshi, Wonwoo, WOOZI, DK, Mingyu, THE8, Seungkwan,
+              Vernon, Dino). The name SEVENTEEN comes from 13 (members)
               + 3 (sub-units) + 1 (team) = 17. Those sub-units are Vocal Team, Hip-Hop Team, and Performance Team.
             </span>
+            <button onclick="readMore()" id="readmore">Read more</button>
           </p>
-          <button onclick="readMore()" id="readmore">Read more</button>
+          
         </div>
       </div>
       <div id="disco">
         <div class="row">
           <div class="col-12">
-            <h4 id="disctitle">
+            <h4 id="disctitle" class="dtitle"
+            style="text-align: left;">
              DISCOGRAPHY
             </h4>
           </div>
@@ -163,7 +167,7 @@
             </p>
           </div>
         </div>
-        <div id="homerun">
+        <div id="homerun" class="utubelink">
           <iframe width="560" height="315" 
           src="https://www.youtube.com/embed/UB4FzllQCyc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
@@ -176,8 +180,49 @@
 
   <!-- GIRL GROUPS-->
   <div id="girls">
-
-  </div>
+    <h2 id="h2girl">
+      Girl Groups
+    </h2>
+    <!-- Dreamcatcher-->
+    <div id="dc">
+      <h3 id="hdc" class="khead">
+        DREAMCATCHER
+      </h3>
+    <div id="dcimage">
+      <img class="dcpic"
+        src="k-assets/dreamcatcher.JPG"
+        alt="Dreamcatcher group photo"
+        width="450px"
+      >
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p id="dcsum" class="ksummary">
+          Dreamcather is a blabla
+          <span id="dots">...</span>
+          <span id="more">
+            Although they are called Seventeen, they actually have 13 members. The name comes from 13 (members)
+            + 3 (sub-units) + 1 (team) = 17. Those sub-units are Vocal Team, Hip-Hop Team, and Performance Team.
+          </span>
+          <button onclick="readMore()" id="readmore">Read more</button>
+        </p>
+      </div>
+      <div id="disco">
+        <div class="row">
+          <div class="col-12">
+            <h4 id="dctitle" class="dtitle"
+            style="text-align: left;">
+            DISCOGRAPHY
+            </h4>
+          </div>
+        </div>
+        <div id="boca" class="utubelink">
+          <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/MZ4JGye4dQU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+      </div>
+    </div>
+    </div>
 
   <script>
     function readMore() {
