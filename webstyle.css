@@ -54,7 +54,10 @@ h4 {
     display: flex;
     margin: 0 auto
 }
-
+#introduction {
+    color: #c86b85;
+    padding: 2vh;
+}
 #gallery {
     height: 100vh;
     padding-left: 2vh;
@@ -148,6 +151,9 @@ p {
 }
 
 /* K-POP PAGE */
+.kh2 {
+    padding: 2vh
+}
 #h2boy {
     font-family: 'Permanent Marker', cursive;
     font-size: 36px;
