@@ -31,7 +31,7 @@ h4 {
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.navbar-brand, .nav-link, .nav-link dropdown-toggle, .dropdown-item {
+.navbar-brand, .nav-link, .dropdown-item {
     color: #A6D0E4;
 }
 .nav-link:hover , .dropdown-item:hover , .navbrand:hover {
